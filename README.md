@@ -8,5 +8,5 @@ height: 26
 reduction: 0.1
 
 ### Startup
-`npm test` if an error appen, please install [typescript](https://google.com)
+`npm test` if an error appen, please install [typescript](https://www.typescriptlang.org/download)
 `node .` then to start the process 
