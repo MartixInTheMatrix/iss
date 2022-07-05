@@ -6,6 +6,6 @@ window.getLocation().then(()=>{
     console.log(window.y)
     window.theme('.')
     console.log(window.build());
-})
+});
 
 
