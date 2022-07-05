@@ -14,7 +14,7 @@ export class Schema {
         this.x = undefined;
         this.y = undefined;
         this.style = '.';
-    }
+    };
 
     async getLocation(){
         return new Promise(resolve => {
@@ -28,7 +28,7 @@ export class Schema {
             resolve(res.data)
         })
     });
-    }
+    };
 
     build(){
         let builder = []
@@ -43,10 +43,10 @@ export class Schema {
             builder.push(str)
         }
         return builder.join("\n")
-    }
+    };
 
     theme(theme:string){
         if(theme.length != 1){return console.log('Invalid theme !')}
         this.style = theme
-    }
+    };
 }
